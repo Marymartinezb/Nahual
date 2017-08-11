@@ -1,0 +1,21 @@
+.btn {
+    background-color: #F8A51C;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: $font-family-base-bold-weight;
+    padding: .7rem 1.5rem;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $turquoise;
+    }
+}
+
+.btn-who {
+    &:hover {
+        background-color: #383838;
+    }
+}

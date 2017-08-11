@@ -1,0 +1,35 @@
+.contact-footer {
+    background-color: #383838!important;
+}
+
+.contact-media {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 49%;
+
+    li {
+        display: inline;
+    }
+
+    img {
+        margin-right: 1rem;               
+        width: 10%; 
+    }
+}
+
+.app-media {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 49%;
+
+    li {
+        display: inline;
+    }
+
+    img {
+        margin-right: 1rem;               
+        width: 28%; 
+    }
+}

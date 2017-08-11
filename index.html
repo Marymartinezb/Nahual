@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nahual</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Nunito:300,300i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script type="text/javascript">
+      var arr=['article','aside','footer','header','nav','section','figcaption','figure','main','template'];
+      for(var i=0;i<arr.length;i++) document.createElement(arr[i]);
+    </script>
+    <![endif]-->
+  <meta name="description" content="">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="l-group bg-hero">
+      <header class="l-group site-header" role="banner">
+        <div class="site-nav">
+          <a href="index.html" class="logo"><img src="img/logo.png" alt="Logo Conversable"></a>
+          <nav class="main-menu">
+            <ul class="menu main-menu__items">
+              <li class="main-menu__item"><a class="main-menu__action" href="#l">Nosotros</a></li>
+              <li class="main-menu__item"><a class="main-menu__action" href="#">Cómo ayudar</a></li>
+              <li class="main-menu__item"><a class="main-menu__action" href="#">Proyectos</a></li>
+              <li class="main-menu__item"><a class="main-menu__action" href="#">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="bg-video">
+        <video playsinline autoplay muted loop poster="img/poster_home.jpg">
+          <source src="video/Drinking-Dog.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+        </video>
+      </div>
+      <section class="l-group section-wrap section-wrap--intro">
+        <div class="center">
+          <h1 class="h-page h-page--white">Descubre el App</h1>
+          <img src="img/play-icon.png" class="play-icon" alt="Play icon" id="playVideo">
+        </div>
+      </section>
+    </div>
+    <main class="main" role="main">
+      <section class="l-group section-wrap">
+        <div class="group">
+          <h2 class="h-section">¡Unete a nuestra causa y ayuda a un animalito!</h2>
+          <ul class="events-wrapper">
+            <li class="events-grid event-item event-item">
+              <div class="img-grid img-adopcion" alt="Adopcion"></div>
+              <p class="sub-title">Adopción
+                <p>
+                  <p>Visitá nuestra galería donte podrás ver todos los angelitos que están en busca de un hogar Te prometemos
+                    que te vas a enamorar!
+                    <p>
+                      <a href="" class="btn">Enamorate</a>
+            </li>
+            <li class="events-grid event-item event-item">
+              <div class="img-grid img-vacuna" alt="Campañas"></div>
+              <p class="sub-title">Campañas de salud
+                <p>
+                  <p><strong>Nahual</strong> se preocupa mucho por la salud de nuestras mascotas, por esta razón queremos mantenerte
+                    informado.
+                  </p>
+                  <a href="" class="btn">Informate</a>
+            </li>
+            <li class="events-grid event-item event-item">
+              <div class="img-grid img-denuncia" alt="Denuncia"></div>
+              <p class="sub-title">Denuncia
+                <p>
+                  <p>Puedes reportar casos de animales heridos o en la vía pública, solicitar ayuda con algún caso específico,
+                    además reportar maltrato animal</p>
+                  <a href="denuncia.html" class="btn">Denuncia</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="l-group section-who">
+        <div class="who-container">
+          <div>
+            <img class="img-gecko" src="img/gecko.png" alt="Gecko">
+            <img class="img-lora" src="img/lora.png" alt="Lora">
+          </div>
+          <div class="who-image">
+            <img class="quienes-somos" src="img/quienes-somos.png">
+          </div>
+          <div class="who-description">
+            <h2>Te preguntarás ¿Pero quiénes son?</h2>
+            <p class="sub-title">Acerca de Nahual</p>
+            <p>Somos un grupo de jóvenes emprendedores con sonciencia social y con ganas de luchar contra las injusticias del
+              maltrato animal. Además de mantener a <strong>Costa Rica</strong> como un país que se preocupa por su biodiversidad.
+            </p>
+            <a href="#" class="btn btn-who">Leer más</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="l-group site-footer">
+    <div class="contact-footer">
+      <div class="footer-container">
+        <ul class="contact-media">
+          <li><img src="img/social-media-youtube.png"></li>
+          <li><img src="img/social-media-instragram.png"></li>
+          <li><img src="img/social-media-facebook.png"></li>
+        </ul>
+        <ul class="app-media">
+          <li><img src="img/google-play.png"></li>
+          <li><img src="img/app-store.png"></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="video-modal hidden" id="videoModal">
+    <div id="video"></div>
+  </div>
+  <div class="opacity hidden"></div>
+  <!-- Scripts -->
+  <script src="js/modal-video.js"></script>
+</body>
+
+</html>

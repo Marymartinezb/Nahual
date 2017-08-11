@@ -1,0 +1,26 @@
+.main-menu {
+  float: right;
+}
+
+.main-menu__action {
+  color: inherit;
+  border-bottom: 0;
+  display: block;
+  margin: 10px 50px 2px 0;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 2px solid rgb(35, 177, 166);
+  }
+}
+
+.main-menu__item {
+  display: inline;
+  float: left;
+}
+
+.main-menu__items {
+  font-family: $font-family-contrast;
+  font-weight: $font-family-base-bold-weight;
+  list-style: none;
+}

@@ -1,0 +1,119 @@
+.l-content {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.l-group {
+  @include micro-clearfix;
+}
+
+.group {
+  @include micro-clearfix;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.bg-hero {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: transparent;
+  color: #fff;
+  height: 40rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-size: cover;
+
+  &:after {
+    content: '';
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  video {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.section-wrap {
+  padding: $space-large $space-medium;
+  max-width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto
+}
+
+.section-wrap--intro {
+  position: relative;
+  z-index: 2;
+}
+
+.section-intro {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.section-wrap--tight {
+  padding-bottom: $space-medium;
+  padding-top: $space-medium;
+}
+
+.wrapper {
+  background-color: #fff;
+}
+
+//General
+
+.center {
+  text-align: center;
+}
+
+.play-icon {
+  cursor: pointer;
+  width: 5%;
+}
+
+.img-grid {
+  background-size: cover;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+
+}
+
+.img-adopcion {
+  background-image: url("../img/adopcion.png");
+  
+  &:hover {
+    background-image: url("../video/adopcion.gif");
+  }
+}
+
+.img-denuncia {
+  background-image: url("../img/denuncia.png");
+
+  &:hover {
+    background-image: url("../video/denuncia.gif");
+  }
+}
+
+.img-vacuna {
+  background-image: url("../img/vacuna.png");
+
+  &:hover {
+    background-image: url("../video/vacuna.gif");
+  }
+}

@@ -1,0 +1,61 @@
+.section-who {
+  position: relative;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c5e2da+0,c5e2da+51,5da29c+51,5da29c+51,5da29c+100 */
+background: #c5e2da; /* Old browsers */
+background: -moz-linear-gradient(left, #c5e2da 0%, #c5e2da 51%, #5da29c 51%, #5da29c 51%, #5da29c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #c5e2da 0%,#c5e2da 51%,#5da29c 51%,#5da29c 51%,#5da29c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #c5e2da 0%,#c5e2da 51%,#5da29c 51%,#5da29c 51%,#5da29c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5e2da', endColorstr='#5da29c',GradientType=1 ); /* IE6-9 */
+}
+.who-container {
+  min-width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.who-image, .who-description {
+  //background-color: #C5E2DA;
+  display: inline-block;
+  padding-left: 3rem;    
+  width: 49.8%; 
+}
+
+.who-image {
+  padding: 2rem 2rem;    
+  text-align: center;
+  vertical-align: top;
+
+  img {
+    width: 70%;
+  }
+}
+
+.who-description {
+  //background-color: #5DA29C;
+  min-height: 503px; 
+
+  h2, h3, p,{
+    color: #fff; 
+  }
+
+  a {
+    margin-top: 4rem;
+  }
+
+  p {
+    width: 70%;
+  }
+}
+
+.img-gecko {
+  position: absolute;
+  top: -14px;
+  right: 8px;
+  width: 8%;
+}
+
+.img-lora {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 90px;
+}

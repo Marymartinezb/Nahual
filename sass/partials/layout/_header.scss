@@ -1,0 +1,16 @@
+.site-header {
+  margin-bottom: $space-base;
+  position: relative;
+  z-index: 5;
+}
+
+.site-nav {
+  @include micro-clearfix;
+  background: rgba(45, 45, 45, .4);
+  padding: 1rem 7rem 20px 7rem;
+}
+
+.bg-pattern {
+  background: url(../img/bg-pattern.jpg) fixed;
+  color: #fff;
+}

@@ -1,0 +1,13 @@
+.site-footer {
+    @include micro-clearfix;
+    background: url(../img/bg-footer.jpg) repeat-x;
+}
+
+.contact-footer {
+    padding: $space-small 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
