@@ -470,6 +470,11 @@ body {
   .img-vacuna:hover {
     background-image: url("../video/vacuna.gif"); }
 
+.denuncia-text {
+  margin: 0 auto;
+  text-align: center;
+  width: 600px; }
+
 .site-footer {
   background: url(../img/bg-footer.jpg) repeat-x; }
   .site-footer:before, .site-footer:after {

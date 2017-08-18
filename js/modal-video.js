@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
     
     // When you click the trailer button
     $('#playVideo').click(function() {
-		$('#videoModal')[0].innerHTML = '<video  width="1000" height="600" controls><source src="video/Dog-Lovers.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>';
+		$('#videoModal')[0].innerHTML = '<video  width="1000" height="600" controls><source src="video/PrototipoWEB.mp4" type="video/mp4">Your browser does not support HTML5 video.</video>';
         $('.opacity').removeClass('hidden');
         $('#videoModal').removeClass('hidden');
     })
